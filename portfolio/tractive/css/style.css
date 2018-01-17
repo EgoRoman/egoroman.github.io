@@ -13,41 +13,41 @@
 }
 @font-face {
     font-family: 'Proxima Nova Lt';
-    src: url('/fonts/ProximaNova-Light.eot');
+    src: url('../fonts/ProximaNova-Light.eot');
     src: local('Proxima Nova Light'), local('ProximaNova-Light'),
-    url('/fonts/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/ProximaNova-Light.woff') format('woff'),
-    url('/fonts/ProximaNova-Light.ttf') format('truetype');
+    url('../fonts/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaNova-Light.woff') format('woff'),
+    url('../fonts/ProximaNova-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
     font-family: 'Proxima Nova Rg';
-    src: url('/fonts/ProximaNova-Regular.eot');
+    src: url('../fonts/ProximaNova-Regular.eot');
     src: local('Proxima Nova Regular'), local('ProximaNova-Regular'),
-    url('/fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/ProximaNova-Regular.woff') format('woff'),
-    url('/fonts/ProximaNova-Regular.ttf') format('truetype');
+    url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaNova-Regular.woff') format('woff'),
+    url('../fonts/ProximaNova-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Proxima Nova Th';
-    src: url('/fonts/ProximaNovaT-Thin.eot');
+    src: url('../fonts/ProximaNovaT-Thin.eot');
     src: local('Proxima Nova Thin'), local('ProximaNovaT-Thin'),
-    url('/fonts/ProximaNovaT-Thin.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/ProximaNovaT-Thin.woff') format('woff'),
-    url('/fonts/ProximaNovaT-Thin.ttf') format('truetype');
+    url('../fonts/ProximaNovaT-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaNovaT-Thin.woff') format('woff'),
+    url('../fonts/ProximaNovaT-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
 }
 @font-face {
     font-family: 'Proxima Nova RgB';
-    src: url('/fonts/ProximaNova-Bold.eot');
+    src: url('../fonts/ProximaNova-Bold.eot');
     src: local('Proxima Nova Bold'), local('ProximaNova-Bold'),
-    url('/fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/ProximaNova-Bold.woff') format('woff'),
-    url('/fonts/ProximaNova-Bold.ttf') format('truetype');
+    url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaNova-Bold.woff') format('woff'),
+    url('../fonts/ProximaNova-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
@@ -224,7 +224,7 @@ ul {
 }
 .modal-content {
     background-color: #fff;
-    background-image: url(/img/bg_pattern_7.png);
+    background-image: url(../img/bg_pattern_7.png);
     margin: 15% auto;
     padding: 20px;
     padding-bottom: 50px;
@@ -324,7 +324,7 @@ nav li > a {
 }
 .navbar .phone:before {
     position: absolute;
-    content: url('/img/phone.png');
+    content: url('../img/phone.png');
     left: -25px;
     top: -1px;
 }
@@ -381,7 +381,7 @@ footer .phone + .btn {
 }
 footer .phone:before {
     position: absolute;
-    content: url('/img/phone-white.png');
+    content: url('../img/phone-white.png');
     left: 0px;
     top: 9px;
 }
@@ -396,7 +396,7 @@ footer .social li:last-of-type {
     margin-right: 0px;
 }
 .social li a {
-    background-image: url('/img/social-icons.png');
+    background-image: url('../img/social-icons.png');
     background-repeat: no-repeat;
     display: block;
     height: 25px;
@@ -528,10 +528,10 @@ ul.grid {
     padding:241px 0 53px;
 }
 .main-section .bg-image{
-    background-image: url('/img/bg_section-1.jpg');
+    background-image: url('../img/bg_section-1.jpg');
 }
 .main-section .bg-image:after {
-    background-image: url('/img/bg_pattern_1.png');
+    background-image: url('../img/bg_pattern_1.png');
 }
 .main-section .title{
     font-size: 63px;
@@ -575,7 +575,7 @@ ul.grid {
     padding: 149px 0 101px;
 }
 .section-2 .bg-image {
-    background-image: url('/img/bg_section-2.jpg');
+    background-image: url('../img/bg_section-2.jpg');
     background-color: #16191d;
 }
 .section-2 .main-caption {
@@ -619,7 +619,7 @@ ul.grid {
     margin-bottom: 30px;
 }
 .section-2 .caption > img {
-    background-image: url('/img/advantage-icons.png');
+    background-image: url('../img/advantage-icons.png');
     height: 66px;
     margin-right: 35px;
     float: left;
@@ -640,7 +640,7 @@ ul.grid {
     padding:70px 0 120px;
 }
 .video-section .bg-image {
-    background-image: url('/img/bg_section-3.jpg');
+    background-image: url('../img/bg_section-3.jpg');
 }
 .video-section .main-caption {
     color: #393939;
@@ -683,7 +683,7 @@ ul.grid {
     padding: 111px 0px;
 }
 .section-5 .bg-image {
-    background-image: url('/img/bg_section-5.jpg');
+    background-image: url('../img/bg_section-5.jpg');
 }
 .section-5 .row.grid {
     display: flex;
@@ -725,7 +725,7 @@ ul.grid {
     padding: 90px 0 0px;
 }
 .form-section .bg-image {
-    background: url('/img/bg_section-6.jpg');
+    background: url('../img/bg_section-6.jpg');
 }
 .form-section .main-caption {
     text-align: left;
@@ -809,7 +809,7 @@ form button {
 }
 .map-section .contacts-block p:before {
     position: absolute;
-    background-image: url('/img/contacts-icons.png');
+    background-image: url('../img/contacts-icons.png');
     content: '';
     left: -25px;
 }
@@ -836,10 +836,10 @@ form button {
     padding-top: 85px;
 }
 .extra-section .bg-image {
-    background-image: url('/img/bg_section-7.jpg');
+    background-image: url('../img/bg_section-7.jpg');
 }
 .extra-section .bg-image:after {
-    background-image: url('/img/bg_pattern_7.png');
+    background-image: url('../img/bg_pattern_7.png');
     opacity: 0.75;
 }
 .extra-section .extra-block-1,
@@ -894,7 +894,7 @@ form button {
 .extra-block-2 a:after {
     position: absolute;
     content: '';
-    background-image: url('/img/arrow.png');
+    background-image: url('../img/arrow.png');
     width: 19px;
     height: 11px;
     right: -35px;
