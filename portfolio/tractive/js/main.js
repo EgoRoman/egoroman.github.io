@@ -199,7 +199,7 @@ function initMap() {
             }
         ]
     });
-    var marker_image = '../img/marker_image.png';
+    var marker_image = 'img/marker_image.png';
     var marker = new google.maps.Marker({
         position: kms,
         map: map,
