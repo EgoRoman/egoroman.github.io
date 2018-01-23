@@ -68,8 +68,8 @@ a {
     transition: color 0.3s;
     outline: none;
 }
-.nav a:hover,
-.nav a:focus {
+.navbar a:hover,
+.navbar a:focus {
     color: #fff;
 }
 /* Flashing image hover */
@@ -202,7 +202,8 @@ ul {
     transition: box-shadow 0.3s;
     outline: none;
 }
-.btn:hover {
+.btn:hover, 
+.btn:focus {
     background: -moz-linear-gradient( 90deg, rgb(255,132,0) 0%, rgb(255,168,0) 100%);
     background: -webkit-linear-gradient( 90deg, rgb(255,132,0) 0%, rgb(255,168,0) 100%);
     background: -ms-linear-gradient( 90deg, rgb(255,132,0) 0%, rgb(255,168,0) 100%);
