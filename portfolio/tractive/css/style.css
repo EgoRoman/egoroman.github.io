@@ -68,7 +68,8 @@ a {
     transition: color 0.3s;
     outline: none;
 }
-a:hover {
+a:hover,
+a:focus {
     color: #fff;
 }
 /* Flashing image hover */
