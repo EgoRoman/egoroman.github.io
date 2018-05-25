@@ -10,8 +10,8 @@ html {
 }
 
 /* В Mobile Safari все отлично работает */
-@media (min-width: 40em) {
+/*@media (min-width: 40em) {
   html {
     font-size: 20px;
   }
-}
+}*/
