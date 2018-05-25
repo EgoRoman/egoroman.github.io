@@ -5,7 +5,7 @@ html {
 /* Вызывает баг с изменением размеров Mobile Safari */
 @media (min-width: 40rem) {
   html {
-    font-size: 20px;
+    font-size: 40px;
   }
 }
 
