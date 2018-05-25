@@ -1,0 +1,17 @@
+html {
+  font-size: 16px;
+}
+
+/* Вызывает баг с изменением размеров Mobile Safari */
+@media (min-width: 40rem) {
+  html {
+    font-size: 20px;
+  }
+}
+
+/* В Mobile Safari все отлично работает */
+@media (min-width: 40em) {
+  html {
+    font-size: 20px;
+  }
+}
